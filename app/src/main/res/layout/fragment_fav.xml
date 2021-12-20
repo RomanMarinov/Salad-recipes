@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_fav">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_menu_fav"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/gradient"
+
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <ImageView
+                android:id="@+id/img_back_frag_fav"
+                android:src="@drawable/back"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginStart="16.5dp"
+                android:layout_marginTop="17.5dp"
+                android:layout_marginBottom="14dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+            <TextView
+                android:id="@+id/tv_name_fav"
+                android:text="Избранное"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/img_back_frag_fav"
+                android:layout_marginStart="31.5dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_list_recept_fav"
+                android:background="@android:color/white"
+                app:layout_constraintTop_toBottomOf="@id/cl_menu_fav"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:elevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+
+            <TextView
+                android:id="@+id/tv_list_recept_fav_empty"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:visibility="gone"
+                style="@style/TextStyle6"
+                android:background="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cl_menu_fav" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
