@@ -10,8 +10,9 @@
 Чтобы посмотреть, и запустить приложение с помощью Android Studio, PhpStorm и MySQL скачайте код zip из раздела release на свой компьютер. 
 
 ## Скрины экрана 
-
-
-
-
-
+![1](https://user-images.githubusercontent.com/61028366/146790540-7a7acb02-c0c0-4744-9533-cfc86505dec8.jpg)
+![2](https://user-images.githubusercontent.com/61028366/146790542-c7f24a5d-462a-4564-b47d-abd77610ed1d.jpg)
+![3](https://user-images.githubusercontent.com/61028366/146790544-3a886393-e2b6-42ee-80dc-5111a298fa51.jpg)
+![4](https://user-images.githubusercontent.com/61028366/146790549-c1f4be2b-6094-4ec5-9958-b9452356cc73.jpg)
+![5](https://user-images.githubusercontent.com/61028366/146790553-a74ec5e4-5679-48bf-9604-542846005601.jpg)
+![6](https://user-images.githubusercontent.com/61028366/146790554-98f6ad18-8536-40d3-99e3-f74db8c7be3d.jpg)
